@@ -1,0 +1,147 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    overflow-x: hidden;    
+}
+
+#VASENnav {
+    height: 100%;
+}
+
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.left-bar {
+    margin-left: 0;
+    margin-right: 0;
+    background-color:rgb(159, 142, 175)
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#sisalto {
+    border-top: rgb(63, 61, 82) 5px solid;
+    
+}
+
+#VASENnav #navbar1 {
+    border: rgb(167, 167, 167) 4px solid;
+    border-right: rgb(103, 101, 96) 5px solid;
+    
+}
+
+#VASENnav nav {
+    margin: 0px 0px 50px 0px;
+}
+
+
+
+#navbar1 {
+    font-size: 20px;
+}
+
+#navbar1 a {
+    color: white;
+    display: block;
+    width: 100%;
+    background-color: rgb(97, 102, 123);
+    border: 3px solid rgb(76, 84, 113);
+    padding: 11px;
+    border-radius: 20px;
+}
+
+#navbar1 li {
+    margin: 0px 6px 3px 0px;
+    padding-bottom: 8px;
+}
+
+
+#navbar1 #active {
+    color: black;
+}
+
+#navbar1 a:hover {
+    color: rgb(225, 220, 220);
+    background-color: rgb(73, 71, 106);
+}
+
+
+
+/*Oikea baari Grid minkä pituutta pitäisi lisätä*/
+
+#kontaktit #spostiOK {
+    background-color: rgb(95, 159, 93);
+    color: white;
+    height: 273px;
+    border: rgb(67, 105, 66) 4px solid;
+    font-size: 20px;
+    padding: 20px 5px 5px 5px;
+    overflow: hidden;
+}
+
+
+
+#kontaktit img {
+    width: 70px;
+}
+
+#kontaktit #puhnumOK img {
+    width: 70px;
+}
+
+#kontaktit #OsoiteOK img {
+    width: 90px;
+}
+
+#ohjainkulma img {
+    width: 100px;
+}
+
+
+#kontaktit #puhnumOK {
+    background-color: rgb(160, 101, 129);
+    color: white;
+    height: 273px;
+    border: rgb(117, 68, 91) 4px solid;
+    font-size: 20px;
+    padding: 20px 5px 5px 5px;
+    overflow: hidden;
+}
+
+#kontaktit #OsoiteOK {
+    background-color: rgb(78, 78, 84);
+    color: white;
+    height: 285px;
+    border: rgb(137, 137, 146) 4px solid;
+    font-size: 20px;
+    padding: 20px 5px 5px 5px;
+    overflow: hidden;
+}
+
+
+
+/*Sisältö*/
+
+#sisalto {
+
+    height: 830px;
+    font-size: 18px;
+}
+
+.border-vahvuudet {
+    border: rgb(94, 110, 121) solid 4px;
+    border-radius: 3px; 
+    background-color: rgb(192, 206, 215);
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
